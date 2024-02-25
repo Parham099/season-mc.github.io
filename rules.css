@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+#banner {
+    background: linear-gradient(rgba(0,0,0.2,0.2), #230c63), url(background.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 150vh;
+}
+.rules {
+    text-align: center;
+    color: white;
+    padding-top: 20px;
+}
+.rules h3 {
+    margin: 20px 100px;
+}
+.rules h1 {
+    margin: 40px 0;
+}
+#Action {
+    width: 120px;
+    height: 100vh;
+    position: fixed;
+    right: -200;
+    top: 0;
+    background: gray;
+    z-index: 2;
+    transition: 1s;
+}
+nav ul li {
+    list-style: none;
+    margin: 50px 40px;
+}
+nav ul a {
+    margin: 0 -25px;
+    text-decoration: none;
+    color: black;
+}
+#menu {
+    width: 50px;
+    height: 50px;
+    background: whitesmoke;
+    text-align: center;
+    position: fixed;
+    right: 0;
+    top: 0;
+    border-radius: 3px;
+    z-index: 3;
+    cursor: pointer;
+}
+#menu img {
+    width: 20px;
+    margin-top: 15px;
+}

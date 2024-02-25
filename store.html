@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>SeasonMine | فروشگاه</title>
+        <link type="text/css" rel="stylesheet" href="store.css">
+
+    </head>
+    <body>
+        <section id="banner">
+
+            <div class="Logo">
+                <h1>Ranks</h1>
+                <h4>شما میتونید در اینجا رنک ها را ببنید و بخرید</h4>
+                <div class="banner-btn">
+                    <a href="dargah.html"><span></span> VIP  قیمت: 20.000</a>
+                    <a href="dargah.html"><span></span> Spring  قیمت: 50.000</a>
+                    <a href="dargah.html"><span></span> Summer  قیمت: 70.000</a>
+                    <a href="dargah.html"><span></span> Fall  قیمت: 80.000</a>
+                    <a href="dargah.html"><span></span> Winter  قیمت: 100.000</a>
+                    <a href="dargah.html"><span></span> Season  قیمت: 130.000</a>
+                    <a href="dargah.html"><span></span> Sponsor  قیمت: 200.000</a>
+                </div>
+                <div class="social">
+                    <h2>Play.SeasonMine.ir</h2>
+                </div>
+            </div>
+        </section>
+
+
+        
+        <div id="Action">
+            <nav>
+                <ul>
+                    <li> <a href="home.html"> خانه </a></li>
+                    <li> <a href="store.html"> فروشگاه </a></li>
+                    <li> <a href="staff.html"> کارکنان </a></li>
+                    <li> <a href="rules.html"> قوانین </a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <div id="menu">
+            <img src="menu.jpg" id="menubtn">
+        </div>
+
+        <script>
+            var menu = document.getElementById("menu")
+            var Action = document.getElementById("Action")
+            var menubtn = document.getElementById("menubtn")
+
+            Action.style.right = "-200px"
+            menu.onclick =function() {
+                if(Action.style.right == "-200px") {
+                    Action.style.right = "0"
+                } else {
+                    Action.style.right = "-200px"
+                }
+            }
+        </script>
+
+    </body>
+</html>

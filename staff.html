@@ -1,0 +1,35 @@
+<h1>این بخش هنوز تکمیل نشده</h1>
+<title>SeasonMine | کارکنان</title>
+<link type="text/css" rel="stylesheet" href="style.css">
+<section id="banner">
+
+</section>
+<div id="Action">
+    <nav>
+        <ul>
+            <li> <a href="home.html"> خانه </a></li>
+            <li> <a href="store.html"> فروشگاه </a></li>
+            <li> <a href="staff.html"> کارکنان </a></li>
+            <li> <a href="rules.html"> قوانین </a></li>
+        </ul>
+    </nav>
+</div>
+
+<div id="menu">
+    <img src="menu.jpg" id="menubtn">
+</div>
+
+<script>
+    var menu = document.getElementById("menu")
+    var Action = document.getElementById("Action")
+    var menubtn = document.getElementById("menubtn")
+
+    Action.style.right = "-200px"
+    menu.onclick =function() {
+        if(Action.style.right == "-200px") {
+            Action.style.right = "0"
+        } else {
+            Action.style.right = "-200px"
+        }
+    }
+</script>

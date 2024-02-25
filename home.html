@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>SeasonMine | یکی از بهترین های ایران</title>
+        <link type="text/css" rel="stylesheet" href="style.css">
+
+    </head>
+    <body>
+        <section id="banner">
+            <img class="logo" src="serverIcon.jpg" alt="serverIcon">
+
+            <div class="TextLogo">
+                <h1>SeasonMine</h1>
+                <h4>A Good Minecraft Server For Every Iranians In All World</h4>
+                <div class="banner-btn">
+                    <a href="home.html"><span></span> خانه</a>
+                    <a href="store.html"><span></span> فروشگاه</a>
+                    <a href="rules.html"><span></span> قوانین</a>
+                    <a href="staff.html"><span></span> کارکنان</a>
+                </div>
+                <div class="social">
+                    <h2>Play.SeasonMine.ir</h2>
+                </div>
+            </div>
+        </section>
+        <div id="Action">
+            <nav>
+                <ul>
+                    <li> <a href="home.html"> خانه </a></li>
+                    <li> <a href="store.html"> فروشگاه </a></li>
+                    <li> <a href="staff.html"> کارکنان </a></li>
+                    <li> <a href="rules.html"> قوانین </a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <div id="menu">
+            <img src="menu.jpg" id="menubtn">
+        </div>
+
+        <script>
+            var menu = document.getElementById("menu")
+            var Action = document.getElementById("Action")
+            var menubtn = document.getElementById("menubtn")
+
+            Action.style.right = "-200px"
+            menu.onclick =function() {
+                if(Action.style.right == "-200px") {
+                    Action.style.right = "0"
+                } else {
+                    Action.style.right = "-200px"
+                }
+            }
+        </script>
+
+    </body>
+</html>
